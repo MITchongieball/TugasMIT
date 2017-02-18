@@ -1,0 +1,203 @@
+body {
+	margin: 0;
+}
+
+header {
+	display: block;
+	color: #fff;
+	margin: 0;
+	width: 100%;
+	top: 0;
+	background-color: #333;
+	position: absolute;
+}
+
+header img {
+	float: left;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	transition: width 2s, height 2s, transform 10s;
+}
+
+header img:hover {
+	transform: rotateY(360deg);
+}
+
+header h1 {
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+	font: 24px 'Kumar One';
+	color: #fff;
+	width: 40%
+}
+
+div.user {
+	margin-top: -35px;
+	font: 16px 'Kumar One';
+	float: right;
+	padding: 10px;
+}
+
+div.user a {
+	text-decoration: none;
+	color: inherit;
+}
+
+div.user a:hover {
+	color: #ccc;
+}
+
+nav {
+	position: center;
+	display: block;
+	margin: 55px auto;
+	background: #fff;
+	border: 1px solid #333;
+	width: 21%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	padding: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	width: 100px;
+	height: 100px;
+}
+
+/*nav span {
+	width: 100px;
+	height: 100px;
+}*/
+nav img {
+	margin: 0px auto;
+	width: 50px;
+	height: 50px;
+}
+
+.cart {
+	float: right;
+}
+nav img:hover {
+	text-decoration: none;
+}
+
+/* login.php */
+div.form_login {
+	display: block;
+	width: 30%;
+	position: center;
+	padding: 10px;
+	margin: 200px auto;
+	background-color: #ccc;
+	border: 1px solid black;
+	box-shadow: 5px 5px grey;
+}
+
+div.form_login input {
+	width: 80%;
+	margin: 5px auto;
+}
+/* librarian.php */
+section.librarian {
+	width: 40%;
+	position: center;
+	margin: 0px auto;
+	padding: 10px;
+	min-height: 220px;
+	border: 1px solid #000; 
+}
+
+section.librarian div.form_add {
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+section.librarian div.data {
+	float: right;
+	width: 40%;
+	height: 180px;
+	margin-right: 100px;
+	border-left: 5px solid black;
+}
+
+section.librarian div.data table {
+	width: 130%;
+	margin: 5px;
+	margin-left: 20px;
+	border: 1px solid black;
+}
+
+/*category.php*/
+div.category {
+	display: block;
+	/*position: center;*/
+	padding: 0px auto;
+	min-height: 200px;
+	background-color: #ccc;
+	width: 30%;
+	border: 1px solid black;
+	margin: 0px auto;
+}
+
+div.category input {
+	width: 50%;
+}
+
+div.category button {
+	width: 30%;
+}
+
+/*div.category button#add {
+}*/
+
+div.category table {
+	width: 80%;
+}
+/*addbook.php*/
+div.add_book {
+	display: block;
+	background-color: #ccc;
+	width: 25%;
+	padding: 0px auto;
+	margin: 0px auto;
+	border: 1px solid black;
+}
+
+div.add_book input,select,button {
+	width: 80%;
+	margin: 5px;
+	color: #000;
+}
+
+div.add_book input.file {
+	margin-bottom: -20px;
+}
+
+/*databook.php*/
+div.book table {
+	text-align: center;
+	border: 1px solid black;
+}
+
+div.book th, div.book td {
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}

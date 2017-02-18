@@ -1,0 +1,162 @@
+body {
+	margin: 0px;
+}
+header {
+	display: block;
+	background: #000000;
+	width: 100%;
+	margin: 0px;
+	top: 0px;
+	position: fixed;
+}
+header img {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 150px;
+	height: 100px;
+	transition: width 2s, height 2s, transform 10s;
+}
+
+header img:hover {
+	transform: rotateY(360deg);
+}
+a.a-header {
+	margin: 0;
+	text-decoration: none;
+	font-family: Papyrus, fantasy;
+	font-size: 32px;
+}
+header h1 {
+	font-family: Papyrus, fantasy;
+	font-size: 32px;
+	width: 400px;
+	color: #CCCCCC;
+/*	margin-left: 150px;*/
+	margin-top: 25px;
+/*	margin-bottom: 0;*/
+
+}
+
+nav {
+	display: block;
+	top: 0;
+	margin-top: 100px;
+	position: fixed;
+	background-color: #FF6600;
+	width: 100%;
+
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	padding: 25px;
+}
+
+nav img {
+	transition : width 0.2s, height 0.2s;
+}
+
+img.iconshop {
+	width: 50px;
+	height: 50px;
+}
+
+img.carticon {
+	width: 50px;
+	height: 50px;
+	margin-left: 490px;
+}
+
+img.loginicon {
+	width: 50px;
+	height: 50px;
+}
+
+nav img:hover {
+	height: 75px;
+	width: 75px;
+}
+
+section {
+	display: block;
+	width: 85%;
+	background-color: #CCCCCC;
+	margin-top: 150px;
+	margin-left: 20px;
+	margin-right: 100px;
+}
+
+article {
+	width: 100%;
+	display: block;
+}
+
+article h1 {
+	font-family: Papyrus, fantasy;
+	font-size: 32px;
+	width: 400px;
+	margin: 0;
+
+}
+article p {
+	text-align: justify;
+	width: 97%;
+	text-indent: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+aside {
+	display: block;
+	background-color: #CCCCCC;
+	width: 13%;
+	float: right;
+	margin-top: -473px;
+
+}
+
+aside ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+/*	background-color: #CCCCCC;*/
+}
+
+aside a {
+	text-decoration: none;
+	color: #000000;
+}
+
+aside li:hover {
+	background-color: #FF6600;
+}
+
+footer {
+	display: block;
+	background-color: #000000;
+/*	position: absolute;*/
+	width: 100%;
+	height: 50px;
+/*	top: 100%;*/
+	bottom: 0;
+	margin: 0;
+}
+
+footer p {
+	color: #CCCCCC;
+	text-align: center;
+	padding: 15px;
+}
+
+footer img {
+	height: 20px;
+	width: 20px;
+	float: right;	
+}	

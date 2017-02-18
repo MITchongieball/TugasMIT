@@ -1,0 +1,4 @@
+<?php
+$soal = array();
+$soal[] = [
+	]

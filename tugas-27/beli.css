@@ -1,0 +1,120 @@
+body {
+	background: #CCCCCC;
+}
+div.kosong {
+	display: block;
+	width: 80%;
+	margin: 170px auto;
+	background: #BDBDBD;
+}
+
+img.empty_cart{
+	width: 20%;
+	margin-right: 55px;
+
+}
+
+img.sad {
+	width: 20px;
+	height: 20px;
+}
+
+div.kosong a {
+	text-decoration: none;
+}
+
+div.berisi {
+	display: block;
+	width: 95%;
+	margin: 150px auto;
+}
+
+div.h3 {
+	display: block;
+	background: #333;
+	color: #fff;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+div.h3 h3 {
+	padding: 10px;
+}
+
+div.cart_detail table {
+	width: 50%;
+	background: #fff;
+	padding: 0;
+	float: left;
+	border-radius: 10px;
+}
+
+div.berisi img {
+	width: 100px;
+	height: 100px;
+}
+
+div.berisi td {
+	padding: 0;
+	margin: 0;
+}
+
+td.nama {
+	width: 200px;
+}
+
+td.img {
+	width: 100px;
+}
+
+td.jumlah {
+	width: 100px;
+}
+
+td.harga {
+	width: 150px;
+}
+
+div.berisi a {
+	text-decoration: none;
+}
+
+p.hidden {
+	visibility: hidden;
+}
+
+table button {
+	border: 1px solid #CCCCCC;
+	color: #000;
+}
+
+td.hapus {
+	width: 20px;
+	vertical-align: top;
+}
+
+div.detail_cart {
+	float: right;
+	width: 30%;
+	background: #fff;
+	margin: 0;
+	padding:0;
+	border-radius: 10px;
+}
+
+div.detail_cart table {
+	width: 100%;
+	padding: 5px;
+}
+
+div.detail_cart button {
+	width: 49%;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+	background: #333;
+	border-radius: 10px;
+}

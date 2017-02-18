@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+}
+
+header {
+	display: block;
+	margin: 0;
+	width: 100%;
+	top: 0;
+	background-color: #000000;
+	position: absolute;
+}
+
+header img {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+	height: 100px;
+	transition: width 2s, height 2s, transform 10s;
+}
+
+header img:hover {
+	transform: rotateY(360deg);
+}
+
+header h1 {
+	margin: 0;
+	margin-top: 25px;
+	padding: 0;
+	font: 24px 'Kumar One';
+	color: #CCCCCC;
+	width: 40%
+}
+
+nav {
+	display: block;
+	top: 100px;
+	position: absolute;
+	background: #FF6600;
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	padding: 25px;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav img {
+	width: 50px;
+	height: 50px;
+	transition: width .2s, height .2s;
+}
+
+.cart {
+	float: right;
+}
+nav img:hover {
+	width: 60px;
+	height: 60px;
+}
+
+.top a {
+	text-decoration: none;
+}
+
+.top img {
+	width: 50px;
+	height: 50px;
+	float: right;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+}

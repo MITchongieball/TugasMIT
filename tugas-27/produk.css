@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	font-family: 'Lemonada', cursive;
+}
+
+h2 {
+	font-family: 'Kumar One', cursive;
+	color: #444;
+}
+
+.cover {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 85px;
+	text-align: center;
+}
+
+.isi {
+	display: inline-block;
+	border: 1px solid #CCCCCC;
+	width: 270px;
+	background: #CCCCCC;
+	margin: 75px auto;
+}
+
+.detail {
+	background: #fff;
+	width: 90%;
+	text-align: center;
+	margin: 5px auto;
+	border-radius: 20px;
+}
+
+p {
+	height: 40px;
+	padding: 0;
+	margin: 0;
+}
+
+form {
+	bottom: 0;
+}
+
+button {
+	width: 100%;
+	bottom: 0;
+	background: #FF6600;
+	border-radius: 20px;
+	color: #fff;
+}
+
+button img {
+	width: 20px;
+	height: 20px;
+}
+
+button:hover {
+	background: #000;
+}
+
+img.sad {
+	width: 20px;
+	height: 20px;
+/*	vertical-align: middle;*/
+}

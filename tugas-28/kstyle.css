@@ -1,0 +1,184 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #0099CC;
+}
+/* klearning.php */
+header {
+	display: block;
+	width: 50%;
+	margin: 50px auto;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+header img {
+	width: 200px;
+	height: 200px;
+}
+
+header h2 {
+	font-family: 'VT323', monospace;
+	font-size: 30px;
+	margin: 0;
+	color: #fff;
+}
+
+section.klearn {
+	margin: 5px auto;
+	text-align: center;
+}
+
+article#start {
+	display: none;
+	width: 30%;
+	margin: 5px auto;
+	background: #fff;
+	color: #000;
+	text-align: justify;
+	animation-name: fadeIn;
+	animation-duration: 3s;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;}
+	to {
+		opacity: 1;}
+}
+
+article#start p {
+	font-size: 14px;
+	margin: 2px;
+}
+
+div.spasi {
+	background: #0099CC;
+}
+article#start button {
+	width: 50%;
+}
+
+article#rule {
+	display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+div#rule_soal {
+	position: relative;
+	margin: auto;
+	padding: 0;
+	width: 50%;
+	background: #fff;
+	text-align: justify;
+	animation-name: muncul;
+	animation-duration: 1s;
+}
+
+@keyframes muncul {
+	from {top: -300px; opacity: 0;}
+	to {top: 0; opacity: 1; transform : rotateY(360deg);}
+}
+
+/* pilih_soal.php */
+section.pilih_soal {
+	background: #CCCCCC;
+	width: 50%;
+	margin: 0px auto;
+	box-shadow: 10px 10px 5px grey;
+}
+div.member {
+	width: 100%;
+	color: black;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Bungee Shade', cursive;
+	margin: 0px auto;
+}
+
+div.select {
+	width: 50%;
+	margin: 0px auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+div.select a {
+	text-decoration: none;
+	margin: 20px;
+}
+
+div.select img {
+	width: 100px;
+	height: 100	x;
+}
+
+div.soal {
+	width: 100%;
+	margin: 5px auto;
+	margin-bottom: 25px;	
+}
+
+div.soal button {
+	width: 20%;
+	height: 40px;
+	background: #FF6600;
+	color: #fff;
+	margin-left: 250px;
+	margin-bottom: 20px;
+	border-style: none;
+}
+
+div.detail_skor {
+	position: fixed;
+	background: #ccc;
+	float: left;
+	color: #000;
+	margin-top: -1200px;
+}
+
+/* result.php */
+section.result {
+	width: 20%;
+	margin: 100px auto;
+	text-align: center;
+	background: #fff;
+}
+
+div.lulus img {
+	width: 100px;
+	height: 100px;
+}
+
+div.lulus a {
+	text-decoration: none;
+}
+
+div.lulus button {
+	background: #ff6600;
+	border: none;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+div.detail table {
+	width: 100%;
+	margin: 5px auto;
+	border-collapse: collapse;
+}
+
+div.detail tr:nth-child(odd) {
+	background: #000;
+	color: #fff;
+}
+
+div.detail tr:nth-child(even) {
+	background: #ccc;
+}

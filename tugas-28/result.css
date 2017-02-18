@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #0099CC;
+}
+
+section.result {
+	width: 20%;
+	margin: 0px auto;
+	text-align: center;
+	background: #fff;
+}
+
+div.lulus img {
+	width: 100px;
+	height: 100px;
+}
+
+div.detail table {
+	width: 70%;
+	margin: 5px auto;
+	border-collapse: collapse;
+}
+
+div.detail tr:nth-child(odd) {
+	background: #CCCCCC;
+}
+
+div.detail tr:nth-child(even) {
+	background: #fff;
+}
