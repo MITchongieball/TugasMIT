@@ -1,7 +1,7 @@
 <?php 
-session_start();
-//session_destroy();
+
 require 'vendor/autoload.php';
+require 'app/Views/home.php';
 
 use App\Lib\Route;
 

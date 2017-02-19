@@ -7,6 +7,7 @@ class Route
 	private $controller;
 	private $action;
 	private $namespace = "App\\Controllers\\";
+	private $error;
 	
 	public function __construct($url)
 	{
@@ -14,11 +15,16 @@ class Route
 			$this->url = $_GET;
 		}
 
+		//if error return to Error Controller
+		$this->error = $this->namespace. 'ErrorController';
+
 		//check if $_GET['page'] is isset
 		if (isset($this->url['page'])) {
 			$this->controller = $this->namespace. ucfirst($this->url['page'])."Controller";
-		} else {
+		} elseif (!isset($this->url)) {
 			$this->controller = $this->namespace. 'HomeController';
+		} else {
+			$this->controller = $this->error;
 		}
 
 		//check if $_GET['page']['action'] is isset

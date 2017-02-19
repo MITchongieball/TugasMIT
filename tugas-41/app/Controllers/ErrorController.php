@@ -3,11 +3,11 @@
 namespace App\Controllers;
 
 
-class HomeController extends BaseController
+class ErrorController extends BaseController
 {
 	public function index()
 	{
-		$this->message = "Selamat Datang!";
+		$this->message = "Halaman Tidak Ditemukan";
 		return $this->message;
 	}
 

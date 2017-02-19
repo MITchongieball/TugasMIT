@@ -3,8 +3,6 @@
 $title = 'Daftar Category';
 $no = 1;
 
-include 'home.php';
-
 ?>
 
 <div class="category">

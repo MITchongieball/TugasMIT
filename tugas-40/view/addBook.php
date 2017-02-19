@@ -1,12 +1,9 @@
 <?php 
-session_start();
 
-use App\Classes\Book;
-use App\Classes\Category;
+use App\Models\Category;
 
 $title = "Tambah Buku";
 
-$book = new Book;
 $category = new Category;
 
 if (isset($_POST['input'])) {
@@ -26,7 +23,7 @@ if (isset($_POST['input'])) {
 			//check photo
 			$picFile = $_FILES['photo']['name'];
 			$tmp_dir = $_FILES['photo']['tmp_name'];
-			$upload_dir = 'public/cover_upload/';
+			$upload_dir = 'public/upload/';
 			$picExt = strtolower(pathinfo($picFile, PATHINFO_EXTENSION));
 
 			$validPhoto = ['jpeg', 'jpg', 'png', 'gif']; //check ext photo
@@ -53,8 +50,8 @@ if (isset($_POST['input'])) {
 				'stock'			=> $_POST['stock'],
 				];
 
-			 $book->add($bookInput);
-			 header("location: index.php?book");
+			 $this->model->add($bookInput);
+			 header("location: index.php?page=book");
 
 			break;
 	}

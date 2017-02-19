@@ -18,15 +18,13 @@ abstract class BaseController
 		if (isset($this->url)) {
 			$model = $this->namespace. ucfirst($url['page']);
 			$this->model = new $model;
-		} else {
-			$this->executeView($viewName);
-		}
+		} 
 	}
 
-	public function executeAction($params)
+	public function executeAction()
 	{
 		if(!empty($this->action)) {
-			return $this->{$this->action}($params);
+			return $this->{$this->action}();
 		} else {
 			$this->message = "Action Not Found";
 			echo "$this->message";
@@ -36,12 +34,13 @@ abstract class BaseController
 	public function executeView($viewName)
 	{
 		if (!isset($this->url)) {
-			$viewName = 'home';
+			$this->url = 'Home';
+			$viewName = 'index';
 		} else {
-			$viewName = $this->url;
+			$viewName = $this->action;
 		}
 
-		$viewFile = "app/Views/$viewName.php";
+		$viewFile = "app/Views/".ucfirst($this->url)."/$viewName.php";
 		if (file_exists($viewFile)) {
 			require_once($viewFile);
 		} else {

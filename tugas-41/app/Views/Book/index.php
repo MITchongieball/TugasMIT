@@ -4,9 +4,6 @@
 $title = "Daftar Buku";
 $no = 1;
 
-
-include 'home.php';
-
 ?>
 
 <div class="book">

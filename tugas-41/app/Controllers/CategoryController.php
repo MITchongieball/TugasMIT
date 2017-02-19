@@ -5,7 +5,7 @@ namespace App\Controllers;
 
 class CategoryController extends BaseController
 {
-	public function index($param = '')
+	public function index()
 	{
 		return $this->model->showAll();
 	}

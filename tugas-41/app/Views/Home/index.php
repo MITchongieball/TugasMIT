@@ -1,0 +1,3 @@
+<center>
+	<?= $this->index() ?>
+</center>

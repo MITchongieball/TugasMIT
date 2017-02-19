@@ -2,10 +2,9 @@
 
 namespace App\Controllers;
 
-
 class BookController extends BaseController
 {
-	public function index($param = '')
+	public function index()
 	{
 		return $this->model->showAll();
 	}
